@@ -1,0 +1,61 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.image.*?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<GridPane fx:controller="sample.Controller" fx:id="gridpane" alignment="CENTER"
+          xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10">
+    <!--<Label fx:id="welcome" style="-fx-font: NORMAL 20 Tahoma;"
+           GridPane.columnIndex="0" GridPane.rowIndex="0">NOW VIEWING: Home Page
+    </Label>
+
+    <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.columnSpan="3"
+               GridPane.rowIndex="1">
+        <columns>
+            <TableColumn text="School: Bronx Science"></TableColumn>
+            <TableColumn prefWidth="150" text="Assignment ID">
+            </TableColumn>
+            <TableColumn prefWidth="150" text="Assignment Name">
+            </TableColumn>
+            <TableColumn prefWidth="150" text="Instructor">
+            </TableColumn>
+            <TableColumn prefWidth="100" text="Status">
+            </TableColumn>
+            <TableColumn prefWidth="100" text="Grade">
+            </TableColumn>
+        </columns>
+
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <Student firstName="Jacob" lastName="Smith"
+                        email="jacob.smith@example.com"/>
+                <Student firstName="Isabella" lastName="Johnson"
+                        email="isabella.johnson@example.com"/>
+                <Student firstName="Ethan" lastName="Williams"
+                        email="ethan.williams@example.com"/>
+                <Student firstName="Emma" lastName="Jones"
+                        email="emma.jones@example.com"/>
+                <Student firstName="Michael" lastName="Brown"
+                        email="michael.brown@example.com"/>
+            </FXCollections>
+        </items>
+    </TableView>
+
+    <ImageView fitWidth="120" preserveRatio="true" GridPane.columnIndex="0" GridPane.columnSpan="1"
+    GridPane.rowIndex="3" >
+        <Image url="https://i.pinimg.com/originals/56/b4/9f/56b49f8fe357deecf54ad7805209d79e.png" />
+    </ImageView>
+    <ImageView fitWidth="250" fitHeight="150" preserveRatio="false" GridPane.columnIndex="1"
+               GridPane.rowIndex="3" >
+        <Image url="@Assignment2Img2.png"/>
+    </ImageView>
+    <Label GridPane.columnIndex="1" GridPane.rowIndex="3" wrapText="true">Hi! I am your virtual assistant for spanish.
+    This is your home page where you can see your classes and your assignments.</Label> -->
+</GridPane>
